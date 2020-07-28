@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <table class="calc-body">
+        <tr class="calc-screen">
+            <td class="calc-typed" id="outtd">0</td>
+        </tr>
+        <tr class="calc-button-row">
+            <td class="button c" onclick="print(this)">C</td>
+            <td class="button l" onclick="print(this)">D</td>
+            <td class="button l" type="operator" onclick="print(this)">&#37;</td>
+            <td class="button l" onclick="print(this)">/</td>
+        </tr>
+        <tr class="calc-button-row">
+            <td class="button" onclick="print(this)">7</td>
+            <td class="button" onclick="print(this)">8</td>
+            <td class="button" onclick="print(this)">9</td>
+            <td class="button l" onclick="print(this)">*</td>
+        </tr>
+        <tr class="calc-button-row">
+            <td class="button" onclick="print(this)">4</td>
+            <td class="button" onclick="print(this)">5</td>
+            <td class="button" onclick="print(this)">6</td>
+            <td class="button l" onclick="print(this)">-</td>
+        </tr>
+        <tr class="calc-button-row">
+            <td class="button" onclick="print(this)">1</td>
+            <td class="button" onclick="print(this)">2</td>
+            <td class="button" onclick="print(this)">3</td>
+            <td class="button l" onclick="print(this)">+</td>
+        </tr>
+        <tr >
+            <td class="button" onclick="print(this)">.</td>
+            <td class="button" onclick="print(this)">0</td>
+            <td class="button l equal" colspan="2" onclick="print(this)">=</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
